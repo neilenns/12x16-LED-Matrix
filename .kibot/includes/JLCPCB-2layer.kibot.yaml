@@ -5,7 +5,7 @@ variants:
     comment: "Just a place holder for the rotation filter"
     type: kibom
     variant: rotated
-    pre_transform: _rot_footprint
+    pre_transform: fix_rotation
 
 filters:
   - name: only_jlc_parts
@@ -14,6 +14,13 @@ filters:
     include_only:
       - column: "LCSC"
         regex: '^C\d+'
+  - name: fix_rotation
+    comment: "Adjust rotation for JLC"
+    type: rot_footprint
+    rotations:
+      - ["^TI_SO-", 270.0]
+      - ["^SO-", 270.0]
+      - ["^HTSSOP-", 270.0]
 
 outputs:
   - name: JLCPCB_gerbers
