@@ -3955,17 +3955,6 @@ Wire Wire Line
 Connection ~ 6200 5500
 Wire Wire Line
 	6200 5500 6200 5150
-$Comp
-L Connector_Generic:Conn_01x12 J2
-U 1 1 61F0FCFB
-P 750 2700
-F 0 "J2" H 668 1875 50  0000 C CNN
-F 1 "Conn_01x12" H 668 1966 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 750 2700 50  0001 C CNN
-F 3 "~" H 750 2700 50  0001 C CNN
-	1    750  2700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1500 2450 1450 2450
 Wire Wire Line
@@ -4038,19 +4027,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 2100 950  2100
 Connection ~ 1500 2100
-$Comp
-L Connector_Generic:Conn_01x16 J1
-U 1 1 62BDBE0D
-P 2400 850
-F 0 "J1" V 2617 796 50  0000 C CNN
-F 1 "Conn_01x16" V 2526 796 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 2400 850 50  0001 C CNN
-F 3 "~" H 2400 850 50  0001 C CNN
-	1    2400 850 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1700 1050 1700 2000
 Wire Wire Line
 	2000 1750 1800 1750
 Wire Wire Line
@@ -4106,39 +4082,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 1100 3100 1100
 Wire Wire Line
-	3100 1100 3100 1050
-Wire Wire Line
 	5900 1100 5900 2000
 Wire Wire Line
-	6200 1050 3200 1050
-Wire Wire Line
 	6200 1050 6200 2000
-Wire Wire Line
-	3000 1050 3000 1150
-Wire Wire Line
-	2900 1050 2900 1200
-Wire Wire Line
-	2800 1050 2800 1250
-Wire Wire Line
-	2700 1050 2700 1300
-Wire Wire Line
-	2600 1050 2600 1350
-Wire Wire Line
-	2500 1050 2500 1400
-Wire Wire Line
-	2400 1050 2400 1450
-Wire Wire Line
-	2300 1050 2300 1500
-Wire Wire Line
-	2200 1050 2200 1550
-Wire Wire Line
-	2100 1050 2100 1600
-Wire Wire Line
-	2000 1050 2000 1650
-Wire Wire Line
-	1900 1050 1900 1700
-Wire Wire Line
-	1800 1050 1800 1750
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 63AC00FF
@@ -4171,5 +4117,83 @@ F 2 "12x16-LED-Matrix:JLCPCB_Tooling_Hole" H 6950 2750 50  0001 C CNN
 F 3 "~" H 6950 2750 50  0001 C CNN
 	1    6950 2750
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x13 J2
+U 1 1 61961DD2
+P 750 2600
+F 0 "J2" H 668 1775 50  0000 C CNN
+F 1 "Conn_01x13" H 668 1866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 750 2600 50  0001 C CNN
+F 3 "~" H 750 2600 50  0001 C CNN
+	1    750  2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 619641D7
+P 950 2000
+F 0 "#PWR0101" H 950 1750 50  0001 C CNN
+F 1 "GND" V 955 1872 50  0000 R CNN
+F 2 "" H 950 2000 50  0001 C CNN
+F 3 "" H 950 2000 50  0001 C CNN
+	1    950  2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x17 J1
+U 1 1 61965EDC
+P 2500 800
+F 0 "J1" V 2717 796 50  0000 C CNN
+F 1 "Conn_01x17" V 2626 796 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 2500 800 50  0001 C CNN
+F 3 "~" H 2500 800 50  0001 C CNN
+	1    2500 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1050 3200 1000
+Wire Wire Line
+	3200 1050 6200 1050
+Wire Wire Line
+	3100 1000 3100 1100
+Wire Wire Line
+	3000 1000 3000 1150
+Wire Wire Line
+	2900 1000 2900 1200
+Wire Wire Line
+	2800 1000 2800 1250
+Wire Wire Line
+	2700 1000 2700 1300
+Wire Wire Line
+	2600 1000 2600 1350
+Wire Wire Line
+	2500 1000 2500 1400
+Wire Wire Line
+	2400 1000 2400 1450
+Wire Wire Line
+	2300 1000 2300 1500
+Wire Wire Line
+	2200 1000 2200 1550
+Wire Wire Line
+	2100 1000 2100 1600
+Wire Wire Line
+	2000 1000 2000 1650
+Wire Wire Line
+	1900 1000 1900 1700
+Wire Wire Line
+	1800 1000 1800 1750
+Wire Wire Line
+	1700 1000 1700 2000
+$Comp
+L power:GND #PWR0102
+U 1 1 620A84A1
+P 3300 1000
+F 0 "#PWR0102" H 3300 750 50  0001 C CNN
+F 1 "GND" V 3305 872 50  0000 R CNN
+F 2 "" H 3300 1000 50  0001 C CNN
+F 3 "" H 3300 1000 50  0001 C CNN
+	1    3300 1000
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
