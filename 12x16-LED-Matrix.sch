@@ -14,36 +14,6 @@ Comment3 "neile@live.com"
 Comment4 "Neil Enns"
 $EndDescr
 $Comp
-L Device:LED_Small D1
-U 1 1 61928B3C
-P 4550 1150
-F 0 "D1" H 4550 1300 50  0000 C CNN
-F 1 "LED_Small" H 4550 1034 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 1150 50  0001 C CNN
-F 3 "~" V 4550 1150 50  0001 C CNN
-F 4 "LED_0603" H 4550 1150 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 1150 50  0001 C CNN "LCSC"
-	1    4550 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 1150 4450 1250
-$Comp
-L Device:LED_Small D2
-U 1 1 6192100E
-P 4850 1150
-F 0 "D2" H 4850 1300 50  0000 C CNN
-F 1 "LED_Small" H 4850 1034 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 1150 50  0001 C CNN
-F 3 "~" V 4850 1150 50  0001 C CNN
-F 4 "LED_0603" H 4850 1150 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 1150 50  0001 C CNN "LCSC"
-	1    4850 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 1150 4750 1250
-$Comp
 L Device:LED_Small D3
 U 1 1 61921BA0
 P 5150 1150
@@ -253,36 +223,6 @@ Wire Wire Line
 	8950 1150 8950 1250
 Wire Wire Line
 	8050 1150 8050 1250
-$Comp
-L Device:LED_Small D17
-U 1 1 6192F32B
-P 4550 1500
-F 0 "D17" H 4550 1650 50  0000 C CNN
-F 1 "LED_Small" H 4550 1384 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 1500 50  0001 C CNN
-F 3 "~" V 4550 1500 50  0001 C CNN
-F 4 "LED_0603" H 4550 1500 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 1500 50  0001 C CNN "LCSC"
-	1    4550 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 1500 4450 1600
-$Comp
-L Device:LED_Small D18
-U 1 1 6192F332
-P 4850 1500
-F 0 "D18" H 4850 1650 50  0000 C CNN
-F 1 "LED_Small" H 4850 1384 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 1500 50  0001 C CNN
-F 3 "~" V 4850 1500 50  0001 C CNN
-F 4 "LED_0603" H 4850 1500 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 1500 50  0001 C CNN "LCSC"
-	1    4850 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 1500 4750 1600
 $Comp
 L Device:LED_Small D19
 U 1 1 6192F339
@@ -494,36 +434,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 1500 8050 1600
 $Comp
-L Device:LED_Small D33
-U 1 1 6194104B
-P 4550 1850
-F 0 "D33" H 4550 2000 50  0000 C CNN
-F 1 "LED_Small" H 4550 1734 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 1850 50  0001 C CNN
-F 3 "~" V 4550 1850 50  0001 C CNN
-F 4 "LED_0603" H 4550 1850 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 1850 50  0001 C CNN "LCSC"
-	1    4550 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 1850 4450 1950
-$Comp
-L Device:LED_Small D34
-U 1 1 61941052
-P 4850 1850
-F 0 "D34" H 4850 2000 50  0000 C CNN
-F 1 "LED_Small" H 4850 1734 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 1850 50  0001 C CNN
-F 3 "~" V 4850 1850 50  0001 C CNN
-F 4 "LED_0603" H 4850 1850 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 1850 50  0001 C CNN "LCSC"
-	1    4850 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 1850 4750 1950
-$Comp
 L Device:LED_Small D35
 U 1 1 61941059
 P 5150 1850
@@ -733,36 +643,6 @@ Wire Wire Line
 	8950 1850 8950 1950
 Wire Wire Line
 	8050 1850 8050 1950
-$Comp
-L Device:LED_Small D49
-U 1 1 619410BB
-P 4550 2200
-F 0 "D49" H 4550 2350 50  0000 C CNN
-F 1 "LED_Small" H 4550 2084 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 2200 50  0001 C CNN
-F 3 "~" V 4550 2200 50  0001 C CNN
-F 4 "LED_0603" H 4550 2200 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 2200 50  0001 C CNN "LCSC"
-	1    4550 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 2200 4450 2300
-$Comp
-L Device:LED_Small D50
-U 1 1 619410C2
-P 4850 2200
-F 0 "D50" H 4850 2350 50  0000 C CNN
-F 1 "LED_Small" H 4850 2084 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 2200 50  0001 C CNN
-F 3 "~" V 4850 2200 50  0001 C CNN
-F 4 "LED_0603" H 4850 2200 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 2200 50  0001 C CNN "LCSC"
-	1    4850 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 2200 4750 2300
 $Comp
 L Device:LED_Small D51
 U 1 1 619410C9
@@ -974,36 +854,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 2200 8050 2300
 $Comp
-L Device:LED_Small D65
-U 1 1 61952CBB
-P 4550 2550
-F 0 "D65" H 4550 2700 50  0000 C CNN
-F 1 "LED_Small" H 4550 2434 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 2550 50  0001 C CNN
-F 3 "~" V 4550 2550 50  0001 C CNN
-F 4 "LED_0603" H 4550 2550 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 2550 50  0001 C CNN "LCSC"
-	1    4550 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 2550 4450 2650
-$Comp
-L Device:LED_Small D66
-U 1 1 61952CC2
-P 4850 2550
-F 0 "D66" H 4850 2700 50  0000 C CNN
-F 1 "LED_Small" H 4850 2434 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 2550 50  0001 C CNN
-F 3 "~" V 4850 2550 50  0001 C CNN
-F 4 "LED_0603" H 4850 2550 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 2550 50  0001 C CNN "LCSC"
-	1    4850 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 2550 4750 2650
-$Comp
 L Device:LED_Small D67
 U 1 1 61952CC9
 P 5150 2550
@@ -1213,36 +1063,6 @@ Wire Wire Line
 	8950 2550 8950 2650
 Wire Wire Line
 	8050 2550 8050 2650
-$Comp
-L Device:LED_Small D81
-U 1 1 61952D2B
-P 4550 2900
-F 0 "D81" H 4550 3050 50  0000 C CNN
-F 1 "LED_Small" H 4550 2784 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 2900 50  0001 C CNN
-F 3 "~" V 4550 2900 50  0001 C CNN
-F 4 "LED_0603" H 4550 2900 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 2900 50  0001 C CNN "LCSC"
-	1    4550 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 2900 4450 3000
-$Comp
-L Device:LED_Small D82
-U 1 1 61952D32
-P 4850 2900
-F 0 "D82" H 4850 3050 50  0000 C CNN
-F 1 "LED_Small" H 4850 2784 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 2900 50  0001 C CNN
-F 3 "~" V 4850 2900 50  0001 C CNN
-F 4 "LED_0603" H 4850 2900 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 2900 50  0001 C CNN "LCSC"
-	1    4850 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 2900 4750 3000
 $Comp
 L Device:LED_Small D83
 U 1 1 61952D39
@@ -1454,36 +1274,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 2900 8050 3000
 $Comp
-L Device:LED_Small D97
-U 1 1 619B005F
-P 4550 3250
-F 0 "D97" H 4550 3400 50  0000 C CNN
-F 1 "LED_Small" H 4550 3134 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 3250 50  0001 C CNN
-F 3 "~" V 4550 3250 50  0001 C CNN
-F 4 "LED_0603" H 4550 3250 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 3250 50  0001 C CNN "LCSC"
-	1    4550 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 3250 4450 3350
-$Comp
-L Device:LED_Small D98
-U 1 1 619B0066
-P 4850 3250
-F 0 "D98" H 4850 3400 50  0000 C CNN
-F 1 "LED_Small" H 4850 3134 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 3250 50  0001 C CNN
-F 3 "~" V 4850 3250 50  0001 C CNN
-F 4 "LED_0603" H 4850 3250 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 3250 50  0001 C CNN "LCSC"
-	1    4850 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 3250 4750 3350
-$Comp
 L Device:LED_Small D99
 U 1 1 619B006D
 P 5150 3250
@@ -1693,36 +1483,6 @@ Wire Wire Line
 	8950 3250 8950 3350
 Wire Wire Line
 	8050 3250 8050 3350
-$Comp
-L Device:LED_Small D113
-U 1 1 619B00CF
-P 4550 3600
-F 0 "D113" H 4550 3750 50  0000 C CNN
-F 1 "LED_Small" H 4550 3484 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 3600 50  0001 C CNN
-F 3 "~" V 4550 3600 50  0001 C CNN
-F 4 "LED_0603" H 4550 3600 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 3600 50  0001 C CNN "LCSC"
-	1    4550 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 3600 4450 3700
-$Comp
-L Device:LED_Small D114
-U 1 1 619B00D6
-P 4850 3600
-F 0 "D114" H 4850 3750 50  0000 C CNN
-F 1 "LED_Small" H 4850 3484 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 3600 50  0001 C CNN
-F 3 "~" V 4850 3600 50  0001 C CNN
-F 4 "LED_0603" H 4850 3600 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 3600 50  0001 C CNN "LCSC"
-	1    4850 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 3600 4750 3700
 $Comp
 L Device:LED_Small D115
 U 1 1 619B00DD
@@ -1934,36 +1694,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 3600 8050 3700
 $Comp
-L Device:LED_Small D129
-U 1 1 619B013F
-P 4550 3950
-F 0 "D129" H 4550 4100 50  0000 C CNN
-F 1 "LED_Small" H 4550 3834 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 3950 50  0001 C CNN
-F 3 "~" V 4550 3950 50  0001 C CNN
-F 4 "LED_0603" H 4550 3950 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 3950 50  0001 C CNN "LCSC"
-	1    4550 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 3950 4450 4050
-$Comp
-L Device:LED_Small D130
-U 1 1 619B0146
-P 4850 3950
-F 0 "D130" H 4850 4100 50  0000 C CNN
-F 1 "LED_Small" H 4850 3834 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 3950 50  0001 C CNN
-F 3 "~" V 4850 3950 50  0001 C CNN
-F 4 "LED_0603" H 4850 3950 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 3950 50  0001 C CNN "LCSC"
-	1    4850 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 3950 4750 4050
-$Comp
 L Device:LED_Small D131
 U 1 1 619B014D
 P 5150 3950
@@ -2173,34 +1903,6 @@ Wire Wire Line
 	8950 3950 8950 4050
 Wire Wire Line
 	8050 3950 8050 4050
-$Comp
-L Device:LED_Small D145
-U 1 1 619B01AF
-P 4550 4300
-F 0 "D145" H 4550 4450 50  0000 C CNN
-F 1 "LED_Small" H 4550 4184 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4550 4300 50  0001 C CNN
-F 3 "~" V 4550 4300 50  0001 C CNN
-F 4 "LED_0603" H 4550 4300 50  0001 C CNN "JLC"
-F 5 "C2290" H 4550 4300 50  0001 C CNN "LCSC"
-	1    4550 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small D146
-U 1 1 619B01B6
-P 4850 4300
-F 0 "D146" H 4850 4450 50  0000 C CNN
-F 1 "LED_Small" H 4850 4184 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 4850 4300 50  0001 C CNN
-F 3 "~" V 4850 4300 50  0001 C CNN
-F 4 "LED_0603" H 4850 4300 50  0001 C CNN "JLC"
-F 5 "C2290" H 4850 4300 50  0001 C CNN "LCSC"
-	1    4850 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 4300 4750 4400
 $Comp
 L Device:LED_Small D147
 U 1 1 619B01BD
@@ -2891,12 +2593,6 @@ Wire Wire Line
 	8050 5000 8050 5100
 Wire Wire Line
 	8950 1250 8650 1250
-Connection ~ 4750 1250
-Wire Wire Line
-	4750 1250 4450 1250
-Connection ~ 5050 1250
-Wire Wire Line
-	5050 1250 4750 1250
 Connection ~ 5350 1250
 Wire Wire Line
 	5350 1250 5050 1250
@@ -2933,12 +2629,6 @@ Wire Wire Line
 Connection ~ 8650 1250
 Wire Wire Line
 	8650 1250 8350 1250
-Wire Wire Line
-	4450 1600 4750 1600
-Connection ~ 4750 1600
-Wire Wire Line
-	4750 1600 5050 1600
-Connection ~ 5050 1600
 Wire Wire Line
 	5050 1600 5350 1600
 Connection ~ 5350 1600
@@ -2979,12 +2669,6 @@ Wire Wire Line
 	8650 1600 8950 1600
 Wire Wire Line
 	8950 1950 8650 1950
-Connection ~ 4750 1950
-Wire Wire Line
-	4750 1950 4450 1950
-Connection ~ 5050 1950
-Wire Wire Line
-	5050 1950 4750 1950
 Connection ~ 5350 1950
 Wire Wire Line
 	5350 1950 5050 1950
@@ -3021,12 +2705,6 @@ Wire Wire Line
 Connection ~ 8650 1950
 Wire Wire Line
 	8650 1950 8350 1950
-Wire Wire Line
-	4450 2300 4750 2300
-Connection ~ 4750 2300
-Wire Wire Line
-	4750 2300 5050 2300
-Connection ~ 5050 2300
 Wire Wire Line
 	5050 2300 5350 2300
 Connection ~ 5350 2300
@@ -3066,12 +2744,6 @@ Connection ~ 8650 2300
 Wire Wire Line
 	8650 2300 8950 2300
 Wire Wire Line
-	4450 2650 4750 2650
-Connection ~ 4750 2650
-Wire Wire Line
-	4750 2650 5050 2650
-Connection ~ 5050 2650
-Wire Wire Line
 	5050 2650 5350 2650
 Connection ~ 5350 2650
 Wire Wire Line
@@ -3109,12 +2781,6 @@ Wire Wire Line
 Connection ~ 8650 2650
 Wire Wire Line
 	8650 2650 8950 2650
-Wire Wire Line
-	4450 3000 4750 3000
-Connection ~ 4750 3000
-Wire Wire Line
-	4750 3000 5050 3000
-Connection ~ 5050 3000
 Wire Wire Line
 	5050 3000 5350 3000
 Connection ~ 5350 3000
@@ -3154,12 +2820,6 @@ Connection ~ 8650 3000
 Wire Wire Line
 	8650 3000 8950 3000
 Wire Wire Line
-	4450 3350 4750 3350
-Connection ~ 4750 3350
-Wire Wire Line
-	4750 3350 5050 3350
-Connection ~ 5050 3350
-Wire Wire Line
 	5050 3350 5350 3350
 Connection ~ 5350 3350
 Wire Wire Line
@@ -3198,12 +2858,6 @@ Connection ~ 8650 3350
 Wire Wire Line
 	8650 3350 8950 3350
 Wire Wire Line
-	4450 3700 4750 3700
-Connection ~ 4750 3700
-Wire Wire Line
-	4750 3700 5050 3700
-Connection ~ 5050 3700
-Wire Wire Line
 	5050 3700 5350 3700
 Connection ~ 5350 3700
 Wire Wire Line
@@ -3241,12 +2895,6 @@ Wire Wire Line
 Connection ~ 8650 3700
 Wire Wire Line
 	8650 3700 8950 3700
-Wire Wire Line
-	4450 4050 4750 4050
-Connection ~ 4750 4050
-Wire Wire Line
-	4750 4050 5050 4050
-Connection ~ 5050 4050
 Wire Wire Line
 	5050 4050 5350 4050
 Connection ~ 5350 4050
@@ -3287,12 +2935,6 @@ Wire Wire Line
 	8650 4050 8950 4050
 Wire Wire Line
 	8950 4400 8650 4400
-Connection ~ 4750 4400
-Wire Wire Line
-	4750 4400 4450 4400
-Connection ~ 5050 4400
-Wire Wire Line
-	5050 4400 4750 4400
 Connection ~ 5350 4400
 Wire Wire Line
 	5350 4400 5050 4400
@@ -3418,69 +3060,9 @@ Connection ~ 8650 5100
 Wire Wire Line
 	8650 5100 8350 5100
 Wire Wire Line
-	4650 1150 4650 1500
-Connection ~ 4650 1500
-Wire Wire Line
-	4650 1500 4650 1850
-Connection ~ 4650 1850
-Wire Wire Line
-	4650 1850 4650 2200
-Connection ~ 4650 2200
-Wire Wire Line
-	4650 2200 4650 2550
-Connection ~ 4650 2550
-Wire Wire Line
-	4650 2550 4650 2900
-Connection ~ 4650 2900
-Wire Wire Line
-	4650 2900 4650 3250
-Connection ~ 4650 3250
-Wire Wire Line
-	4650 3250 4650 3600
-Connection ~ 4650 3600
-Wire Wire Line
-	4650 3600 4650 3950
-Connection ~ 4650 3950
-Wire Wire Line
-	4650 3950 4650 4300
-Connection ~ 4650 4300
-Wire Wire Line
-	4650 4300 4650 4650
-Connection ~ 4650 4650
-Wire Wire Line
 	4650 4650 4650 5000
 Wire Wire Line
 	4950 5000 4950 4650
-Connection ~ 4950 1500
-Wire Wire Line
-	4950 1500 4950 1150
-Connection ~ 4950 1850
-Wire Wire Line
-	4950 1850 4950 1500
-Connection ~ 4950 2200
-Wire Wire Line
-	4950 2200 4950 1850
-Connection ~ 4950 2550
-Wire Wire Line
-	4950 2550 4950 2200
-Connection ~ 4950 2900
-Wire Wire Line
-	4950 2900 4950 2550
-Connection ~ 4950 3250
-Wire Wire Line
-	4950 3250 4950 2900
-Connection ~ 4950 3600
-Wire Wire Line
-	4950 3600 4950 3250
-Connection ~ 4950 3950
-Wire Wire Line
-	4950 3950 4950 3600
-Connection ~ 4950 4300
-Wire Wire Line
-	4950 4300 4950 3950
-Connection ~ 4950 4650
-Wire Wire Line
-	4950 4650 4950 4300
 Wire Wire Line
 	5250 1150 5250 1500
 Connection ~ 5250 1500
@@ -3962,409 +3544,10 @@ F 3 "~" H 6250 7400 50  0001 C CNN
 	1    6250 7400
 	1    0    0    -1  
 $EndComp
-$Comp
-L 12x16-LED-Matrix:IS31FL3733B U1
-U 1 1 61C560D2
-P 3100 2050
-F 0 "U1" H 3100 3365 50  0000 C CNN
-F 1 "IS31FL3733B" H 3100 3274 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm_ThermalVias" H 3100 -450 50  0001 C CNN
-F 3 "https://www.lumissil.com/assets/pdf/core/IS31FL3733B_DS.pdf" H 3100 2050 50  0001 C CNN
-	1    3100 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J1
-U 1 1 61C705E7
-P 750 2350
-F 0 "J1" H 668 2767 50  0000 C CNN
-F 1 "Conn_01x06" H 668 2676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 750 2350 50  0001 C CNN
-F 3 "~" H 750 2350 50  0001 C CNN
-	1    750  2350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	950  2150 1100 2150
-Wire Wire Line
-	1100 2150 1100 1800
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 61E4AA7A
-P 1100 1800
-F 0 "#FLG01" H 1100 1875 50  0001 C CNN
-F 1 "PWR_FLAG" V 1100 1927 50  0000 L CNN
-F 2 "" H 1100 1800 50  0001 C CNN
-F 3 "~" H 1100 1800 50  0001 C CNN
-	1    1100 1800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR01
-U 1 1 61E4EA14
-P 1100 1800
-F 0 "#PWR01" H 1100 1650 50  0001 C CNN
-F 1 "+5V" H 1115 1973 50  0000 C CNN
-F 2 "" H 1100 1800 50  0001 C CNN
-F 3 "" H 1100 1800 50  0001 C CNN
-	1    1100 1800
-	1    0    0    -1  
-$EndComp
-Connection ~ 1100 1800
-Wire Wire Line
-	950  2650 1150 2650
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 61EC56F2
-P 1150 2850
-F 0 "#FLG02" H 1150 2925 50  0001 C CNN
-F 1 "PWR_FLAG" V 1150 2977 50  0000 L CNN
-F 2 "" H 1150 2850 50  0001 C CNN
-F 3 "~" H 1150 2850 50  0001 C CNN
-	1    1150 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 61F3CBDF
-P 1150 2850
-F 0 "#PWR02" H 1150 2600 50  0001 C CNN
-F 1 "GND" H 1155 2677 50  0000 C CNN
-F 2 "" H 1150 2850 50  0001 C CNN
-F 3 "" H 1150 2850 50  0001 C CNN
-	1    1150 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  2250 2600 2250
-Wire Wire Line
-	2600 2350 950  2350
-Wire Wire Line
-	2600 2550 1350 2550
-Text Label 950  2250 0    50   ~ 0
-SDA
-Text Label 950  2350 0    50   ~ 0
-SCL
-Text Label 950  2450 0    50   ~ 0
-SDB
-Text Label 950  2550 0    50   ~ 0
-INTB
-$Comp
-L Device:C_Small C4
-U 1 1 62368B03
-P 2300 1100
-F 0 "C4" H 2392 1146 50  0000 L CNN
-F 1 "0.1uF" H 2392 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 1100 50  0001 C CNN
-F 3 "~" H 2300 1100 50  0001 C CNN
-F 4 "0402" H 2300 1100 50  0001 C CNN "JLC"
-F 5 "C1525" H 2300 1100 50  0001 C CNN "LCSC"
-	1    2300 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 6236C0A9
-P 1850 1100
-F 0 "C1" H 1942 1146 50  0000 L CNN
-F 1 "0.47uF" H 1942 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 1100 50  0001 C CNN
-F 3 "~" H 1850 1100 50  0001 C CNN
-F 4 "0402" H 1850 1100 50  0001 C CNN "JLC"
-F 5 "C47339" H 1850 1100 50  0001 C CNN "LCSC"
-	1    1850 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 6236CF24
-P 2300 1400
-F 0 "C5" H 2392 1446 50  0000 L CNN
-F 1 "0.1uF" H 2392 1355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 1400 50  0001 C CNN
-F 3 "~" H 2300 1400 50  0001 C CNN
-F 4 "0402" H 2300 1400 50  0001 C CNN "JLC"
-F 5 "C1525" H 2300 1400 50  0001 C CNN "LCSC"
-	1    2300 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 6236CF2A
-P 1850 1400
-F 0 "C2" H 1942 1446 50  0000 L CNN
-F 1 "0.47uF" H 1942 1355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 1400 50  0001 C CNN
-F 3 "~" H 1850 1400 50  0001 C CNN
-F 4 "0402" H 1850 1400 50  0001 C CNN "JLC"
-F 5 "C47339" H 1850 1400 50  0001 C CNN "LCSC"
-	1    1850 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C6
-U 1 1 623E2BF4
-P 2300 1750
-F 0 "C6" H 2392 1796 50  0000 L CNN
-F 1 "0.1uF" H 2392 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 1750 50  0001 C CNN
-F 3 "~" H 2300 1750 50  0001 C CNN
-F 4 "0402" H 2300 1750 50  0001 C CNN "JLC"
-F 5 "C1525" H 2300 1750 50  0001 C CNN "LCSC"
-	1    2300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 623E2BFA
-P 1850 1750
-F 0 "C3" H 1942 1796 50  0000 L CNN
-F 1 "0.47uF" H 1942 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 1750 50  0001 C CNN
-F 3 "~" H 1850 1750 50  0001 C CNN
-F 4 "0402" H 1850 1750 50  0001 C CNN "JLC"
-F 5 "C47339" H 1850 1750 50  0001 C CNN "LCSC"
-	1    1850 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 1550 2600 1650
-Wire Wire Line
-	1850 1650 2300 1650
-Connection ~ 2600 1650
-Connection ~ 2300 1650
-Wire Wire Line
-	2300 1650 2600 1650
-Wire Wire Line
-	2600 1300 2300 1300
-Connection ~ 2300 1300
-Wire Wire Line
-	2300 1300 1850 1300
-Wire Wire Line
-	2600 1000 2300 1000
-Connection ~ 2300 1000
-Wire Wire Line
-	2300 1000 1850 1000
-Wire Wire Line
-	2300 1200 1850 1200
-Wire Wire Line
-	1850 1200 1700 1200
-Wire Wire Line
-	1700 1200 1700 1500
-Connection ~ 1850 1200
-$Comp
-L power:GND #PWR04
-U 1 1 6272DA7E
-P 1700 1850
-F 0 "#PWR04" H 1700 1600 50  0001 C CNN
-F 1 "GND" H 1705 1677 50  0000 C CNN
-F 2 "" H 1700 1850 50  0001 C CNN
-F 3 "" H 1700 1850 50  0001 C CNN
-	1    1700 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 1850 1850 1850
-Connection ~ 1850 1850
-Wire Wire Line
-	1850 1850 1700 1850
-Wire Wire Line
-	2300 1500 1850 1500
-Connection ~ 1700 1500
-Wire Wire Line
-	1700 1500 1700 1850
-Connection ~ 1850 1500
-Wire Wire Line
-	1850 1500 1700 1500
-Wire Wire Line
-	1850 1650 1650 1650
-Wire Wire Line
-	1650 1650 1650 1300
-Connection ~ 1850 1650
-$Comp
-L power:+5V #PWR03
-U 1 1 628A3F6D
-P 1650 1000
-F 0 "#PWR03" H 1650 850 50  0001 C CNN
-F 1 "+5V" H 1665 1173 50  0000 C CNN
-F 2 "" H 1650 1000 50  0001 C CNN
-F 3 "" H 1650 1000 50  0001 C CNN
-	1    1650 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 1000 1850 1000
-Connection ~ 1650 1000
-Connection ~ 1850 1000
-Wire Wire Line
-	1850 1300 1650 1300
-Connection ~ 1850 1300
-Connection ~ 1650 1300
-Wire Wire Line
-	1650 1300 1650 1000
-Connection ~ 1700 1850
-$Comp
-L Device:R_Small R1
-U 1 1 629A2DF3
-P 1350 2100
-F 0 "R1" H 1409 2146 50  0000 L CNN
-F 1 "100k" H 1409 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1350 2100 50  0001 C CNN
-F 3 "~" H 1350 2100 50  0001 C CNN
-F 4 "0402" H 1350 2100 50  0001 C CNN "JLC"
-F 5 "C25741" H 1350 2100 50  0001 C CNN "LCSC"
-	1    1350 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 2550 1350 2200
-Connection ~ 1350 2550
-Wire Wire Line
-	1350 2550 950  2550
-Wire Wire Line
-	1350 2000 1350 1800
-Wire Wire Line
-	1350 1800 1100 1800
-$Comp
-L Device:R_Small R3
-U 1 1 62AA4905
-P 1800 2750
-F 0 "R3" H 1859 2796 50  0000 L CNN
-F 1 "100k" H 1859 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1800 2750 50  0001 C CNN
-F 3 "~" H 1800 2750 50  0001 C CNN
-F 4 "0402" H 1800 2750 50  0001 C CNN "JLC"
-F 5 "C25741" H 1800 2750 50  0001 C CNN "LCSC"
-	1    1800 2750
-	1    0    0    -1  
-$EndComp
-Connection ~ 1150 2850
-Wire Wire Line
-	1150 2650 1150 2850
-$Comp
-L Device:R_Small R2
-U 1 1 62CAB0D5
-P 1500 2750
-F 0 "R2" H 1559 2796 50  0000 L CNN
-F 1 "100k" H 1559 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 2750 50  0001 C CNN
-F 3 "~" H 1500 2750 50  0001 C CNN
-F 4 "0402" H 1500 2750 50  0001 C CNN "JLC"
-F 5 "C25741" H 1500 2750 50  0001 C CNN "LCSC"
-	1    1500 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C7
-U 1 1 62D2F903
-P 2300 3050
-F 0 "C7" H 2392 3096 50  0000 L CNN
-F 1 "0.47uF" H 2392 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 3050 50  0001 C CNN
-F 3 "~" H 2300 3050 50  0001 C CNN
-F 4 "0402" H 2300 3050 50  0001 C CNN "JLC"
-F 5 "C47339" H 2300 3050 50  0001 C CNN "LCSC"
-	1    2300 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 2950 2300 2950
-$Comp
-L power:GND #PWR06
-U 1 1 62DB4305
-P 2300 3150
-F 0 "#PWR06" H 2300 2900 50  0001 C CNN
-F 1 "GND" H 2305 2977 50  0000 C CNN
-F 2 "" H 2300 3150 50  0001 C CNN
-F 3 "" H 2300 3150 50  0001 C CNN
-	1    2300 3150
-	1    0    0    -1  
-$EndComp
-Connection ~ 1500 2850
-Wire Wire Line
-	1500 2850 1150 2850
-Wire Wire Line
-	1500 2850 1800 2850
-Wire Wire Line
-	950  2450 1500 2450
-Wire Wire Line
-	1800 2650 2600 2650
-Wire Wire Line
-	1500 2650 1500 2450
-Connection ~ 1500 2450
-Wire Wire Line
-	1500 2450 2600 2450
-$Comp
-L power:+5V #PWR05
-U 1 1 62EBB8A6
-P 2300 2950
-F 0 "#PWR05" H 2300 2800 50  0001 C CNN
-F 1 "+5V" H 2315 3123 50  0000 C CNN
-F 2 "" H 2300 2950 50  0001 C CNN
-F 3 "" H 2300 2950 50  0001 C CNN
-	1    2300 2950
-	1    0    0    -1  
-$EndComp
-Connection ~ 2300 2950
-$Comp
-L Device:R_Small R4
-U 1 1 62EBD899
-P 2300 3600
-F 0 "R4" H 2359 3646 50  0000 L CNN
-F 1 "20k" H 2359 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3600 50  0001 C CNN
-F 3 "~" H 2300 3600 50  0001 C CNN
-F 4 "0402" H 2300 3600 50  0001 C CNN "JLC"
-F 5 "C25765" H 2300 3600 50  0001 C CNN "LCSC"
-	1    2300 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 3600 2600 3700
-Wire Wire Line
-	2600 3700 2300 3700
-Connection ~ 2600 3700
-Wire Wire Line
-	2300 3500 2600 3500
-$Comp
-L power:GND #PWR07
-U 1 1 630D0089
-P 3100 4150
-F 0 "#PWR07" H 3100 3900 50  0001 C CNN
-F 1 "GND" H 3105 3977 50  0000 C CNN
-F 2 "" H 3100 4150 50  0001 C CNN
-F 3 "" H 3100 4150 50  0001 C CNN
-	1    3100 4150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2600 3400
-Wire Wire Line
-	2950 4100 3050 4100
-Connection ~ 3050 4100
-Wire Wire Line
-	3050 4100 3100 4100
-Connection ~ 3150 4100
-Wire Wire Line
-	3150 4100 3250 4100
-Wire Wire Line
-	3100 4150 3100 4100
-Connection ~ 3100 4100
-Wire Wire Line
-	3100 4100 3150 4100
-Wire Wire Line
-	2300 3700 2300 4150
-Wire Wire Line
-	2300 4150 3100 4150
-Connection ~ 2300 3700
-Connection ~ 3100 4150
-Text GLabel 4400 4400 0    50   Output ~ 0
-SW10
 Text GLabel 4400 4750 0    50   Output ~ 0
 SW11
 Text GLabel 4400 5100 0    50   Output ~ 0
 SW12
-Connection ~ 4650 1150
-Connection ~ 4950 1150
 Connection ~ 5250 1150
 Connection ~ 5550 1150
 Connection ~ 5850 1150
@@ -4393,10 +3576,6 @@ Connection ~ 8850 1150
 Wire Wire Line
 	9150 1150 9150 950 
 Connection ~ 9150 1150
-Text GLabel 4650 900  1    50   Input ~ 0
-CS1
-Text GLabel 4950 900  1    50   Input ~ 0
-CS2
 Text GLabel 5250 900  1    50   Input ~ 0
 CS3
 Text GLabel 5550 900  1    50   Input ~ 0
@@ -4423,120 +3602,20 @@ Text GLabel 8550 950  1    50   Input ~ 0
 CS14
 Text GLabel 8850 950  1    50   Input ~ 0
 CS15
-Connection ~ 4450 1250
-Connection ~ 4450 1600
-Connection ~ 4450 1950
-Connection ~ 4450 2300
-Connection ~ 4450 2650
-Connection ~ 4450 3000
-Connection ~ 4450 3350
-Connection ~ 4450 3700
 Wire Wire Line
 	4450 4650 4450 4750
-Wire Wire Line
-	4450 4300 4450 4400
-Connection ~ 4450 4050
-Wire Wire Line
-	4400 4400 4450 4400
-Connection ~ 4450 4400
 Wire Wire Line
 	4400 4750 4450 4750
 Connection ~ 4450 4750
 Wire Wire Line
 	4400 5100 4450 5100
 Connection ~ 4450 5100
-Text GLabel 3700 1000 2    50   Input ~ 0
-SW1
-Text GLabel 3700 1100 2    50   Input ~ 0
-SW2
-Text GLabel 3700 1200 2    50   Input ~ 0
-SW3
-Text GLabel 3700 1300 2    50   Input ~ 0
-SW4
-Text GLabel 3700 1400 2    50   Input ~ 0
-SW5
-Text GLabel 3700 1500 2    50   Input ~ 0
-SW6
-Text GLabel 3700 1600 2    50   Input ~ 0
-SW7
-Text GLabel 3700 1700 2    50   Input ~ 0
-SW8
-Text GLabel 3700 1800 2    50   Input ~ 0
-SW9
-Text GLabel 3650 1900 2    50   Input ~ 0
-SW10
-Text GLabel 3650 2000 2    50   Input ~ 0
-SW11
-Text GLabel 3650 2100 2    50   Input ~ 0
-SW12
-Text GLabel 3700 2250 2    50   Output ~ 0
-CS1
-Text GLabel 3700 2350 2    50   Output ~ 0
-CS2
-Text GLabel 3700 2450 2    50   Output ~ 0
-CS3
-Text GLabel 3700 2550 2    50   Output ~ 0
-CS4
-Text GLabel 3700 2650 2    50   Output ~ 0
-CS5
-Text GLabel 3700 2750 2    50   Output ~ 0
-CS6
-Text GLabel 3700 2850 2    50   Output ~ 0
-CS7
-Text GLabel 3700 2950 2    50   Output ~ 0
-CS8
-Text GLabel 3700 3050 2    50   Output ~ 0
-CS9
-Text GLabel 3650 3150 2    50   Output ~ 0
-CS10
-Text GLabel 3650 3250 2    50   Output ~ 0
-CS11
-Text GLabel 3650 3350 2    50   Output ~ 0
-CS12
-Text GLabel 3650 3450 2    50   Output ~ 0
-CS13
-Text GLabel 3650 3550 2    50   Output ~ 0
-CS14
-Text GLabel 3650 3650 2    50   Output ~ 0
-CS15
-Text GLabel 3650 3750 2    50   Output ~ 0
-CS16
-Wire Wire Line
-	3600 1900 3650 1900
-Wire Wire Line
-	3600 2000 3650 2000
-Wire Wire Line
-	3600 2100 3650 2100
-Wire Wire Line
-	3600 3150 3650 3150
-Wire Wire Line
-	3600 3250 3650 3250
-Wire Wire Line
-	3600 3350 3650 3350
-Wire Wire Line
-	3600 3450 3650 3450
-Wire Wire Line
-	3600 3550 3650 3550
-Wire Wire Line
-	3600 3650 3650 3650
-Wire Wire Line
-	3600 3750 3650 3750
 Text GLabel 9150 950  1    50   Input ~ 0
 CS16
-Wire Notes Line
-	4100 5200 4100 650 
-Wire Notes Line
-	4100 650  9250 650 
 Wire Notes Line
 	9250 5200 4100 5200
 Wire Notes Line
 	9250 650  9250 5200
-Text Notes 4100 600  0    50   ~ 0
-LED matrix
-Wire Wire Line
-	4650 900  4650 1150
-Wire Wire Line
-	4950 900  4950 1150
 Wire Wire Line
 	5250 900  5250 1150
 Wire Wire Line
@@ -4551,86 +3630,1021 @@ Wire Wire Line
 	6750 900  6750 1150
 Wire Wire Line
 	7050 900  7050 1150
-Text GLabel 4350 1250 0    50   Output ~ 0
-SW1
-Text GLabel 4350 1600 0    50   Output ~ 0
-SW2
-Text GLabel 4350 1950 0    50   Output ~ 0
-SW3
-Text GLabel 4350 2300 0    50   Output ~ 0
-SW4
-Text GLabel 4350 2650 0    50   Output ~ 0
-SW5
-Text GLabel 4350 3000 0    50   Output ~ 0
-SW6
-Text GLabel 4350 3350 0    50   Output ~ 0
-SW7
-Text GLabel 4350 3700 0    50   Output ~ 0
-SW8
-Text GLabel 4350 4050 0    50   Output ~ 0
-SW9
+Connection ~ 4950 4650
+Connection ~ 4650 4650
+Connection ~ 5050 4400
+Connection ~ 5050 4050
+Connection ~ 5050 3700
+Connection ~ 5050 3350
+Connection ~ 5050 3000
+Connection ~ 5050 2650
+Connection ~ 5050 2300
+Connection ~ 5050 1950
+Connection ~ 5050 1600
+Connection ~ 5050 1250
+Text Notes 550  600  0    50   ~ 0
+IS31FL3733B driver
 Wire Wire Line
-	4350 4050 4450 4050
-Wire Wire Line
-	4350 3700 4450 3700
-Wire Wire Line
-	4350 3350 4450 3350
-Wire Wire Line
-	4350 3000 4450 3000
-Wire Wire Line
-	4350 2650 4450 2650
-Wire Wire Line
-	4350 2300 4450 2300
-Wire Wire Line
-	4350 1950 4450 1950
-Wire Wire Line
-	4350 1600 4450 1600
-Wire Wire Line
-	4350 1250 4450 1250
-Wire Notes Line
-	550  650  550  4400
-Wire Notes Line
-	550  4400 4000 4400
-Wire Notes Line
-	4000 4400 4000 650 
-Wire Notes Line
-	550  650  4000 650 
-Wire Wire Line
-	3600 1000 3700 1000
-Wire Wire Line
-	3600 1100 3700 1100
-Wire Wire Line
-	3600 1200 3700 1200
-Wire Wire Line
-	3600 1300 3700 1300
-Wire Wire Line
-	3600 1400 3700 1400
-Wire Wire Line
-	3600 1500 3700 1500
-Wire Wire Line
-	3600 1600 3700 1600
-Wire Wire Line
-	3600 1700 3700 1700
-Wire Wire Line
-	3600 1800 3700 1800
-Wire Wire Line
-	3600 2250 3700 2250
-Wire Wire Line
-	3600 2350 3700 2350
-Wire Wire Line
-	3600 2450 3700 2450
-Wire Wire Line
-	3600 2550 3700 2550
-Wire Wire Line
-	3600 2650 3700 2650
-Wire Wire Line
-	3600 2750 3700 2750
-Wire Wire Line
-	3600 2850 3700 2850
+	3600 3050 3700 3050
 Wire Wire Line
 	3600 2950 3700 2950
 Wire Wire Line
-	3600 3050 3700 3050
-Text Notes 550  600  0    50   ~ 0
-IS31FL3733B driver
+	3600 2850 3700 2850
+Wire Wire Line
+	3600 2750 3700 2750
+Wire Wire Line
+	3600 2650 3700 2650
+Wire Wire Line
+	3600 2550 3700 2550
+Wire Wire Line
+	3600 2450 3700 2450
+Wire Wire Line
+	3600 2350 3700 2350
+Wire Wire Line
+	3600 2250 3700 2250
+Wire Wire Line
+	3600 1800 3700 1800
+Wire Wire Line
+	3600 1700 3700 1700
+Wire Wire Line
+	3600 1600 3700 1600
+Wire Wire Line
+	3600 1500 3700 1500
+Wire Wire Line
+	3600 1400 3700 1400
+Wire Wire Line
+	3600 1300 3700 1300
+Wire Wire Line
+	3600 1200 3700 1200
+Wire Wire Line
+	3600 1100 3700 1100
+Wire Wire Line
+	3600 1000 3700 1000
+Wire Notes Line
+	550  650  4000 650 
+Wire Notes Line
+	4000 4400 4000 650 
+Wire Notes Line
+	550  4400 4000 4400
+Wire Notes Line
+	550  650  550  4400
+Wire Wire Line
+	4350 1250 4450 1250
+Wire Wire Line
+	4350 1600 4450 1600
+Wire Wire Line
+	4350 1950 4450 1950
+Wire Wire Line
+	4350 2300 4450 2300
+Wire Wire Line
+	4350 2650 4450 2650
+Wire Wire Line
+	4350 3000 4450 3000
+Wire Wire Line
+	4350 3350 4450 3350
+Wire Wire Line
+	4350 3700 4450 3700
+Wire Wire Line
+	4350 4050 4450 4050
+Text GLabel 4350 4050 0    50   Output ~ 0
+SW9
+Text GLabel 4350 3700 0    50   Output ~ 0
+SW8
+Text GLabel 4350 3350 0    50   Output ~ 0
+SW7
+Text GLabel 4350 3000 0    50   Output ~ 0
+SW6
+Text GLabel 4350 2650 0    50   Output ~ 0
+SW5
+Text GLabel 4350 2300 0    50   Output ~ 0
+SW4
+Text GLabel 4350 1950 0    50   Output ~ 0
+SW3
+Text GLabel 4350 1600 0    50   Output ~ 0
+SW2
+Text GLabel 4350 1250 0    50   Output ~ 0
+SW1
+Wire Wire Line
+	4950 900  4950 1150
+Wire Wire Line
+	4650 900  4650 1150
+Text Notes 4100 600  0    50   ~ 0
+LED matrix
+Wire Notes Line
+	4100 650  9250 650 
+Wire Notes Line
+	4100 5200 4100 650 
+Wire Wire Line
+	3600 3750 3650 3750
+Wire Wire Line
+	3600 3650 3650 3650
+Wire Wire Line
+	3600 3550 3650 3550
+Wire Wire Line
+	3600 3450 3650 3450
+Wire Wire Line
+	3600 3350 3650 3350
+Wire Wire Line
+	3600 3250 3650 3250
+Wire Wire Line
+	3600 3150 3650 3150
+Wire Wire Line
+	3600 2100 3650 2100
+Wire Wire Line
+	3600 2000 3650 2000
+Wire Wire Line
+	3600 1900 3650 1900
+Text GLabel 3650 3750 2    50   Output ~ 0
+CS16
+Text GLabel 3650 3650 2    50   Output ~ 0
+CS15
+Text GLabel 3650 3550 2    50   Output ~ 0
+CS14
+Text GLabel 3650 3450 2    50   Output ~ 0
+CS13
+Text GLabel 3650 3350 2    50   Output ~ 0
+CS12
+Text GLabel 3650 3250 2    50   Output ~ 0
+CS11
+Text GLabel 3650 3150 2    50   Output ~ 0
+CS10
+Text GLabel 3700 3050 2    50   Output ~ 0
+CS9
+Text GLabel 3700 2950 2    50   Output ~ 0
+CS8
+Text GLabel 3700 2850 2    50   Output ~ 0
+CS7
+Text GLabel 3700 2750 2    50   Output ~ 0
+CS6
+Text GLabel 3700 2650 2    50   Output ~ 0
+CS5
+Text GLabel 3700 2550 2    50   Output ~ 0
+CS4
+Text GLabel 3700 2450 2    50   Output ~ 0
+CS3
+Text GLabel 3700 2350 2    50   Output ~ 0
+CS2
+Text GLabel 3700 2250 2    50   Output ~ 0
+CS1
+Text GLabel 3650 2100 2    50   Input ~ 0
+SW12
+Text GLabel 3650 2000 2    50   Input ~ 0
+SW11
+Text GLabel 3650 1900 2    50   Input ~ 0
+SW10
+Text GLabel 3700 1800 2    50   Input ~ 0
+SW9
+Text GLabel 3700 1700 2    50   Input ~ 0
+SW8
+Text GLabel 3700 1600 2    50   Input ~ 0
+SW7
+Text GLabel 3700 1500 2    50   Input ~ 0
+SW6
+Text GLabel 3700 1400 2    50   Input ~ 0
+SW5
+Text GLabel 3700 1300 2    50   Input ~ 0
+SW4
+Text GLabel 3700 1200 2    50   Input ~ 0
+SW3
+Text GLabel 3700 1100 2    50   Input ~ 0
+SW2
+Text GLabel 3700 1000 2    50   Input ~ 0
+SW1
+Connection ~ 4450 4400
+Wire Wire Line
+	4400 4400 4450 4400
+Connection ~ 4450 4050
+Wire Wire Line
+	4450 4300 4450 4400
+Connection ~ 4450 3700
+Connection ~ 4450 3350
+Connection ~ 4450 3000
+Connection ~ 4450 2650
+Connection ~ 4450 2300
+Connection ~ 4450 1950
+Connection ~ 4450 1600
+Connection ~ 4450 1250
+Text GLabel 4950 900  1    50   Input ~ 0
+CS2
+Text GLabel 4650 900  1    50   Input ~ 0
+CS1
+Connection ~ 4950 1150
+Connection ~ 4650 1150
+Text GLabel 4400 4400 0    50   Output ~ 0
+SW10
+Connection ~ 3100 4150
+Connection ~ 2300 3700
+Wire Wire Line
+	2300 4150 3100 4150
+Wire Wire Line
+	2300 3700 2300 4150
+Wire Wire Line
+	3100 4150 3100 4100
+NoConn ~ 2600 3400
+$Comp
+L power:GND #PWR07
+U 1 1 630D0089
+P 3100 4150
+F 0 "#PWR07" H 3100 3900 50  0001 C CNN
+F 1 "GND" H 3105 3977 50  0000 C CNN
+F 2 "" H 3100 4150 50  0001 C CNN
+F 3 "" H 3100 4150 50  0001 C CNN
+	1    3100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3500 2600 3500
+Wire Wire Line
+	2600 3700 2300 3700
+Wire Wire Line
+	2600 3600 2600 3700
+$Comp
+L Device:R_Small R4
+U 1 1 62EBD899
+P 2300 3600
+F 0 "R4" H 2359 3646 50  0000 L CNN
+F 1 "20k" H 2359 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3600 50  0001 C CNN
+F 3 "~" H 2300 3600 50  0001 C CNN
+F 4 "0402" H 2300 3600 50  0001 C CNN "JLC"
+F 5 "C25765" H 2300 3600 50  0001 C CNN "LCSC"
+	1    2300 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 2950
+$Comp
+L power:+5V #PWR05
+U 1 1 62EBB8A6
+P 2300 2950
+F 0 "#PWR05" H 2300 2800 50  0001 C CNN
+F 1 "+5V" H 2315 3123 50  0000 C CNN
+F 2 "" H 2300 2950 50  0001 C CNN
+F 3 "" H 2300 2950 50  0001 C CNN
+	1    2300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2450 2600 2450
+Wire Wire Line
+	1500 2650 1500 2450
+Wire Wire Line
+	1800 2650 2600 2650
+Wire Wire Line
+	1500 2850 1800 2850
+Wire Wire Line
+	1500 2850 1150 2850
+Connection ~ 1500 2850
+$Comp
+L power:GND #PWR06
+U 1 1 62DB4305
+P 2300 3150
+F 0 "#PWR06" H 2300 2900 50  0001 C CNN
+F 1 "GND" H 2305 2977 50  0000 C CNN
+F 2 "" H 2300 3150 50  0001 C CNN
+F 3 "" H 2300 3150 50  0001 C CNN
+	1    2300 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2950 2300 2950
+$Comp
+L Device:C_Small C7
+U 1 1 62D2F903
+P 2300 3050
+F 0 "C7" H 2392 3096 50  0000 L CNN
+F 1 "0.47uF" H 2392 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 3050 50  0001 C CNN
+F 3 "~" H 2300 3050 50  0001 C CNN
+F 4 "0402" H 2300 3050 50  0001 C CNN "JLC"
+F 5 "C47339" H 2300 3050 50  0001 C CNN "LCSC"
+	1    2300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 62CAB0D5
+P 1500 2750
+F 0 "R2" H 1559 2796 50  0000 L CNN
+F 1 "100k" H 1559 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1500 2750 50  0001 C CNN
+F 3 "~" H 1500 2750 50  0001 C CNN
+F 4 "0402" H 1500 2750 50  0001 C CNN "JLC"
+F 5 "C25741" H 1500 2750 50  0001 C CNN "LCSC"
+	1    1500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2650 1150 2850
+Connection ~ 1150 2850
+$Comp
+L Device:R_Small R3
+U 1 1 62AA4905
+P 1800 2750
+F 0 "R3" H 1859 2796 50  0000 L CNN
+F 1 "100k" H 1859 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1800 2750 50  0001 C CNN
+F 3 "~" H 1800 2750 50  0001 C CNN
+F 4 "0402" H 1800 2750 50  0001 C CNN "JLC"
+F 5 "C25741" H 1800 2750 50  0001 C CNN "LCSC"
+	1    1800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1800 1100 1800
+Wire Wire Line
+	1350 2000 1350 1800
+Wire Wire Line
+	1350 2550 1350 2450
+$Comp
+L Device:R_Small R1
+U 1 1 629A2DF3
+P 1350 2100
+F 0 "R1" H 1409 2146 50  0000 L CNN
+F 1 "100k" H 1409 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1350 2100 50  0001 C CNN
+F 3 "~" H 1350 2100 50  0001 C CNN
+F 4 "0402" H 1350 2100 50  0001 C CNN "JLC"
+F 5 "C25741" H 1350 2100 50  0001 C CNN "LCSC"
+	1    1350 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 1850
+Wire Wire Line
+	1650 1300 1650 1000
+Connection ~ 1650 1300
+Connection ~ 1850 1300
+Wire Wire Line
+	1850 1300 1650 1300
+Connection ~ 1850 1000
+Connection ~ 1650 1000
+Wire Wire Line
+	1650 1000 1850 1000
+$Comp
+L power:+5V #PWR03
+U 1 1 628A3F6D
+P 1650 1000
+F 0 "#PWR03" H 1650 850 50  0001 C CNN
+F 1 "+5V" H 1665 1173 50  0000 C CNN
+F 2 "" H 1650 1000 50  0001 C CNN
+F 3 "" H 1650 1000 50  0001 C CNN
+	1    1650 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1650
+Wire Wire Line
+	1650 1650 1650 1300
+Wire Wire Line
+	1850 1650 1650 1650
+Wire Wire Line
+	1850 1500 1700 1500
+Connection ~ 1850 1500
+Wire Wire Line
+	1700 1500 1700 1850
+Connection ~ 1700 1500
+Wire Wire Line
+	2300 1500 1850 1500
+Wire Wire Line
+	1850 1850 1700 1850
+Connection ~ 1850 1850
+Wire Wire Line
+	2300 1850 1850 1850
+$Comp
+L power:GND #PWR04
+U 1 1 6272DA7E
+P 1700 1850
+F 0 "#PWR04" H 1700 1600 50  0001 C CNN
+F 1 "GND" H 1705 1677 50  0000 C CNN
+F 2 "" H 1700 1850 50  0001 C CNN
+F 3 "" H 1700 1850 50  0001 C CNN
+	1    1700 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1200
+Wire Wire Line
+	1700 1200 1700 1500
+Wire Wire Line
+	1850 1200 1700 1200
+Wire Wire Line
+	2300 1200 1850 1200
+Wire Wire Line
+	2300 1000 1850 1000
+Connection ~ 2300 1000
+Wire Wire Line
+	2600 1000 2300 1000
+Wire Wire Line
+	2300 1300 1850 1300
+Connection ~ 2300 1300
+Wire Wire Line
+	2600 1300 2300 1300
+Wire Wire Line
+	2300 1650 2600 1650
+Connection ~ 2300 1650
+Connection ~ 2600 1650
+Wire Wire Line
+	1850 1650 2300 1650
+Wire Wire Line
+	2600 1550 2600 1650
+$Comp
+L Device:C_Small C3
+U 1 1 623E2BFA
+P 1850 1750
+F 0 "C3" H 1942 1796 50  0000 L CNN
+F 1 "0.47uF" H 1942 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 1750 50  0001 C CNN
+F 3 "~" H 1850 1750 50  0001 C CNN
+F 4 "0402" H 1850 1750 50  0001 C CNN "JLC"
+F 5 "C47339" H 1850 1750 50  0001 C CNN "LCSC"
+	1    1850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 623E2BF4
+P 2300 1750
+F 0 "C6" H 2392 1796 50  0000 L CNN
+F 1 "0.1uF" H 2392 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 1750 50  0001 C CNN
+F 3 "~" H 2300 1750 50  0001 C CNN
+F 4 "0402" H 2300 1750 50  0001 C CNN "JLC"
+F 5 "C1525" H 2300 1750 50  0001 C CNN "LCSC"
+	1    2300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 6236CF2A
+P 1850 1400
+F 0 "C2" H 1942 1446 50  0000 L CNN
+F 1 "0.47uF" H 1942 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 1400 50  0001 C CNN
+F 3 "~" H 1850 1400 50  0001 C CNN
+F 4 "0402" H 1850 1400 50  0001 C CNN "JLC"
+F 5 "C47339" H 1850 1400 50  0001 C CNN "LCSC"
+	1    1850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 6236CF24
+P 2300 1400
+F 0 "C5" H 2392 1446 50  0000 L CNN
+F 1 "0.1uF" H 2392 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 1400 50  0001 C CNN
+F 3 "~" H 2300 1400 50  0001 C CNN
+F 4 "0402" H 2300 1400 50  0001 C CNN "JLC"
+F 5 "C1525" H 2300 1400 50  0001 C CNN "LCSC"
+	1    2300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 6236C0A9
+P 1850 1100
+F 0 "C1" H 1942 1146 50  0000 L CNN
+F 1 "0.47uF" H 1942 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 1100 50  0001 C CNN
+F 3 "~" H 1850 1100 50  0001 C CNN
+F 4 "0402" H 1850 1100 50  0001 C CNN "JLC"
+F 5 "C47339" H 1850 1100 50  0001 C CNN "LCSC"
+	1    1850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 62368B03
+P 2300 1100
+F 0 "C4" H 2392 1146 50  0000 L CNN
+F 1 "0.1uF" H 2392 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 1100 50  0001 C CNN
+F 3 "~" H 2300 1100 50  0001 C CNN
+F 4 "0402" H 2300 1100 50  0001 C CNN "JLC"
+F 5 "C1525" H 2300 1100 50  0001 C CNN "LCSC"
+	1    2300 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2550 1350 2550
+Wire Wire Line
+	950  2250 2600 2250
+$Comp
+L power:GND #PWR02
+U 1 1 61F3CBDF
+P 1150 2850
+F 0 "#PWR02" H 1150 2600 50  0001 C CNN
+F 1 "GND" H 1155 2677 50  0000 C CNN
+F 2 "" H 1150 2850 50  0001 C CNN
+F 3 "" H 1150 2850 50  0001 C CNN
+	1    1150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 61EC56F2
+P 1150 2850
+F 0 "#FLG02" H 1150 2925 50  0001 C CNN
+F 1 "PWR_FLAG" V 1150 2977 50  0000 L CNN
+F 2 "" H 1150 2850 50  0001 C CNN
+F 3 "~" H 1150 2850 50  0001 C CNN
+	1    1150 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  2650 1150 2650
+Connection ~ 1100 1800
+$Comp
+L power:+5V #PWR01
+U 1 1 61E4EA14
+P 1100 1800
+F 0 "#PWR01" H 1100 1650 50  0001 C CNN
+F 1 "+5V" H 1115 1973 50  0000 C CNN
+F 2 "" H 1100 1800 50  0001 C CNN
+F 3 "" H 1100 1800 50  0001 C CNN
+	1    1100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 61E4AA7A
+P 1100 1800
+F 0 "#FLG01" H 1100 1875 50  0001 C CNN
+F 1 "PWR_FLAG" V 1100 1927 50  0000 L CNN
+F 2 "" H 1100 1800 50  0001 C CNN
+F 3 "~" H 1100 1800 50  0001 C CNN
+	1    1100 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 2150 1100 1800
+Wire Wire Line
+	950  2150 1100 2150
+Wire Wire Line
+	4950 4650 4950 4300
+Wire Wire Line
+	4950 4300 4950 3950
+Connection ~ 4950 4300
+Wire Wire Line
+	4950 3950 4950 3600
+Connection ~ 4950 3950
+Wire Wire Line
+	4950 3600 4950 3250
+Connection ~ 4950 3600
+Wire Wire Line
+	4950 3250 4950 2900
+Connection ~ 4950 3250
+Wire Wire Line
+	4950 2900 4950 2550
+Connection ~ 4950 2900
+Wire Wire Line
+	4950 2550 4950 2200
+Connection ~ 4950 2550
+Wire Wire Line
+	4950 2200 4950 1850
+Connection ~ 4950 2200
+Wire Wire Line
+	4950 1850 4950 1500
+Connection ~ 4950 1850
+Wire Wire Line
+	4950 1500 4950 1150
+Connection ~ 4950 1500
+Wire Wire Line
+	4650 4300 4650 4650
+Connection ~ 4650 4300
+Wire Wire Line
+	4650 3950 4650 4300
+Connection ~ 4650 3950
+Wire Wire Line
+	4650 3600 4650 3950
+Connection ~ 4650 3600
+Wire Wire Line
+	4650 3250 4650 3600
+Connection ~ 4650 3250
+Wire Wire Line
+	4650 2900 4650 3250
+Connection ~ 4650 2900
+Wire Wire Line
+	4650 2550 4650 2900
+Connection ~ 4650 2550
+Wire Wire Line
+	4650 2200 4650 2550
+Connection ~ 4650 2200
+Wire Wire Line
+	4650 1850 4650 2200
+Connection ~ 4650 1850
+Wire Wire Line
+	4650 1500 4650 1850
+Connection ~ 4650 1500
+Wire Wire Line
+	4650 1150 4650 1500
+Wire Wire Line
+	5050 4400 4750 4400
+Wire Wire Line
+	4750 4400 4450 4400
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 4050 5050 4050
+Connection ~ 4750 4050
+Wire Wire Line
+	4450 4050 4750 4050
+Wire Wire Line
+	4750 3700 5050 3700
+Connection ~ 4750 3700
+Wire Wire Line
+	4450 3700 4750 3700
+Wire Wire Line
+	4750 3350 5050 3350
+Connection ~ 4750 3350
+Wire Wire Line
+	4450 3350 4750 3350
+Wire Wire Line
+	4750 3000 5050 3000
+Connection ~ 4750 3000
+Wire Wire Line
+	4450 3000 4750 3000
+Wire Wire Line
+	4750 2650 5050 2650
+Connection ~ 4750 2650
+Wire Wire Line
+	4450 2650 4750 2650
+Wire Wire Line
+	4750 2300 5050 2300
+Connection ~ 4750 2300
+Wire Wire Line
+	4450 2300 4750 2300
+Wire Wire Line
+	5050 1950 4750 1950
+Wire Wire Line
+	4750 1950 4450 1950
+Connection ~ 4750 1950
+Wire Wire Line
+	4750 1600 5050 1600
+Connection ~ 4750 1600
+Wire Wire Line
+	4450 1600 4750 1600
+Wire Wire Line
+	5050 1250 4750 1250
+Wire Wire Line
+	4750 1250 4450 1250
+Connection ~ 4750 1250
+Wire Wire Line
+	4750 4300 4750 4400
+$Comp
+L Device:LED_Small D146
+U 1 1 619B01B6
+P 4850 4300
+F 0 "D146" H 4850 4450 50  0000 C CNN
+F 1 "LED_Small" H 4850 4184 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 4300 50  0001 C CNN
+F 3 "~" V 4850 4300 50  0001 C CNN
+F 4 "LED_0603" H 4850 4300 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 4300 50  0001 C CNN "LCSC"
+	1    4850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D145
+U 1 1 619B01AF
+P 4550 4300
+F 0 "D145" H 4550 4450 50  0000 C CNN
+F 1 "LED_Small" H 4550 4184 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 4300 50  0001 C CNN
+F 3 "~" V 4550 4300 50  0001 C CNN
+F 4 "LED_0603" H 4550 4300 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 4300 50  0001 C CNN "LCSC"
+	1    4550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3950 4750 4050
+$Comp
+L Device:LED_Small D130
+U 1 1 619B0146
+P 4850 3950
+F 0 "D130" H 4850 4100 50  0000 C CNN
+F 1 "LED_Small" H 4850 3834 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 3950 50  0001 C CNN
+F 3 "~" V 4850 3950 50  0001 C CNN
+F 4 "LED_0603" H 4850 3950 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 3950 50  0001 C CNN "LCSC"
+	1    4850 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3950 4450 4050
+$Comp
+L Device:LED_Small D129
+U 1 1 619B013F
+P 4550 3950
+F 0 "D129" H 4550 4100 50  0000 C CNN
+F 1 "LED_Small" H 4550 3834 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 3950 50  0001 C CNN
+F 3 "~" V 4550 3950 50  0001 C CNN
+F 4 "LED_0603" H 4550 3950 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 3950 50  0001 C CNN "LCSC"
+	1    4550 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3600 4750 3700
+$Comp
+L Device:LED_Small D114
+U 1 1 619B00D6
+P 4850 3600
+F 0 "D114" H 4850 3750 50  0000 C CNN
+F 1 "LED_Small" H 4850 3484 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 3600 50  0001 C CNN
+F 3 "~" V 4850 3600 50  0001 C CNN
+F 4 "LED_0603" H 4850 3600 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 3600 50  0001 C CNN "LCSC"
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3600 4450 3700
+$Comp
+L Device:LED_Small D113
+U 1 1 619B00CF
+P 4550 3600
+F 0 "D113" H 4550 3750 50  0000 C CNN
+F 1 "LED_Small" H 4550 3484 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 3600 50  0001 C CNN
+F 3 "~" V 4550 3600 50  0001 C CNN
+F 4 "LED_0603" H 4550 3600 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 3600 50  0001 C CNN "LCSC"
+	1    4550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3250 4750 3350
+$Comp
+L Device:LED_Small D98
+U 1 1 619B0066
+P 4850 3250
+F 0 "D98" H 4850 3400 50  0000 C CNN
+F 1 "LED_Small" H 4850 3134 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 3250 50  0001 C CNN
+F 3 "~" V 4850 3250 50  0001 C CNN
+F 4 "LED_0603" H 4850 3250 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 3250 50  0001 C CNN "LCSC"
+	1    4850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3250 4450 3350
+$Comp
+L Device:LED_Small D97
+U 1 1 619B005F
+P 4550 3250
+F 0 "D97" H 4550 3400 50  0000 C CNN
+F 1 "LED_Small" H 4550 3134 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 3250 50  0001 C CNN
+F 3 "~" V 4550 3250 50  0001 C CNN
+F 4 "LED_0603" H 4550 3250 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 3250 50  0001 C CNN "LCSC"
+	1    4550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2900 4750 3000
+$Comp
+L Device:LED_Small D82
+U 1 1 61952D32
+P 4850 2900
+F 0 "D82" H 4850 3050 50  0000 C CNN
+F 1 "LED_Small" H 4850 2784 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 2900 50  0001 C CNN
+F 3 "~" V 4850 2900 50  0001 C CNN
+F 4 "LED_0603" H 4850 2900 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 2900 50  0001 C CNN "LCSC"
+	1    4850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2900 4450 3000
+$Comp
+L Device:LED_Small D81
+U 1 1 61952D2B
+P 4550 2900
+F 0 "D81" H 4550 3050 50  0000 C CNN
+F 1 "LED_Small" H 4550 2784 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 2900 50  0001 C CNN
+F 3 "~" V 4550 2900 50  0001 C CNN
+F 4 "LED_0603" H 4550 2900 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 2900 50  0001 C CNN "LCSC"
+	1    4550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2550 4750 2650
+$Comp
+L Device:LED_Small D66
+U 1 1 61952CC2
+P 4850 2550
+F 0 "D66" H 4850 2700 50  0000 C CNN
+F 1 "LED_Small" H 4850 2434 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 2550 50  0001 C CNN
+F 3 "~" V 4850 2550 50  0001 C CNN
+F 4 "LED_0603" H 4850 2550 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 2550 50  0001 C CNN "LCSC"
+	1    4850 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2550 4450 2650
+$Comp
+L Device:LED_Small D65
+U 1 1 61952CBB
+P 4550 2550
+F 0 "D65" H 4550 2700 50  0000 C CNN
+F 1 "LED_Small" H 4550 2434 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 2550 50  0001 C CNN
+F 3 "~" V 4550 2550 50  0001 C CNN
+F 4 "LED_0603" H 4550 2550 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 2550 50  0001 C CNN "LCSC"
+	1    4550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2200 4750 2300
+$Comp
+L Device:LED_Small D50
+U 1 1 619410C2
+P 4850 2200
+F 0 "D50" H 4850 2350 50  0000 C CNN
+F 1 "LED_Small" H 4850 2084 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 2200 50  0001 C CNN
+F 3 "~" V 4850 2200 50  0001 C CNN
+F 4 "LED_0603" H 4850 2200 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 2200 50  0001 C CNN "LCSC"
+	1    4850 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2200 4450 2300
+$Comp
+L Device:LED_Small D49
+U 1 1 619410BB
+P 4550 2200
+F 0 "D49" H 4550 2350 50  0000 C CNN
+F 1 "LED_Small" H 4550 2084 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 2200 50  0001 C CNN
+F 3 "~" V 4550 2200 50  0001 C CNN
+F 4 "LED_0603" H 4550 2200 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 2200 50  0001 C CNN "LCSC"
+	1    4550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1850 4750 1950
+$Comp
+L Device:LED_Small D34
+U 1 1 61941052
+P 4850 1850
+F 0 "D34" H 4850 2000 50  0000 C CNN
+F 1 "LED_Small" H 4850 1734 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 1850 50  0001 C CNN
+F 3 "~" V 4850 1850 50  0001 C CNN
+F 4 "LED_0603" H 4850 1850 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 1850 50  0001 C CNN "LCSC"
+	1    4850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1850 4450 1950
+$Comp
+L Device:LED_Small D33
+U 1 1 6194104B
+P 4550 1850
+F 0 "D33" H 4550 2000 50  0000 C CNN
+F 1 "LED_Small" H 4550 1734 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 1850 50  0001 C CNN
+F 3 "~" V 4550 1850 50  0001 C CNN
+F 4 "LED_0603" H 4550 1850 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 1850 50  0001 C CNN "LCSC"
+	1    4550 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1500 4750 1600
+$Comp
+L Device:LED_Small D18
+U 1 1 6192F332
+P 4850 1500
+F 0 "D18" H 4850 1650 50  0000 C CNN
+F 1 "LED_Small" H 4850 1384 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 1500 50  0001 C CNN
+F 3 "~" V 4850 1500 50  0001 C CNN
+F 4 "LED_0603" H 4850 1500 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 1500 50  0001 C CNN "LCSC"
+	1    4850 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1500 4450 1600
+$Comp
+L Device:LED_Small D17
+U 1 1 6192F32B
+P 4550 1500
+F 0 "D17" H 4550 1650 50  0000 C CNN
+F 1 "LED_Small" H 4550 1384 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 1500 50  0001 C CNN
+F 3 "~" V 4550 1500 50  0001 C CNN
+F 4 "LED_0603" H 4550 1500 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 1500 50  0001 C CNN "LCSC"
+	1    4550 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1150 4750 1250
+$Comp
+L Device:LED_Small D2
+U 1 1 6192100E
+P 4850 1150
+F 0 "D2" H 4850 1300 50  0000 C CNN
+F 1 "LED_Small" H 4850 1034 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4850 1150 50  0001 C CNN
+F 3 "~" V 4850 1150 50  0001 C CNN
+F 4 "LED_0603" H 4850 1150 50  0001 C CNN "JLC"
+F 5 "C2290" H 4850 1150 50  0001 C CNN "LCSC"
+	1    4850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1150 4450 1250
+$Comp
+L Device:LED_Small D1
+U 1 1 61928B3C
+P 4550 1150
+F 0 "D1" H 4550 1300 50  0000 C CNN
+F 1 "LED_Small" H 4550 1034 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4550 1150 50  0001 C CNN
+F 3 "~" V 4550 1150 50  0001 C CNN
+F 4 "LED_0603" H 4550 1150 50  0001 C CNN "JLC"
+F 5 "C2290" H 4550 1150 50  0001 C CNN "LCSC"
+	1    4550 1150
+	1    0    0    -1  
+$EndComp
+Text Label 2600 2650 2    50   ~ 0
+IICRST
+Text Label 2550 3500 2    50   ~ 0
+ISET
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 61C705E7
+P 750 2350
+F 0 "J1" H 668 2767 50  0000 C CNN
+F 1 "Conn_01x06" H 668 2676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 750 2350 50  0001 C CNN
+F 3 "~" H 750 2350 50  0001 C CNN
+	1    750  2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 12x16-LED-Matrix:IS31FL3733B U1
+U 1 1 61C560D2
+P 3100 2050
+F 0 "U1" H 3100 3365 50  0000 C CNN
+F 1 "IS31FL3733B" H 3100 3274 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm_ThermalVias" H 3100 -450 50  0001 C CNN
+F 3 "https://www.lumissil.com/assets/pdf/core/IS31FL3733B_DS.pdf" H 3100 2050 50  0001 C CNN
+	1    3100 2050
+	1    0    0    -1  
+$EndComp
+Text Label 2600 2250 2    50   ~ 0
+SDA
+Text Label 900  3200 0    50   ~ 0
+SCL
+Text Label 2600 2550 2    50   ~ 0
+INTB
+Text Label 900  3300 0    50   ~ 0
+SDB
+Wire Wire Line
+	2950 4100 3050 4100
+Wire Wire Line
+	3100 4100 3150 4100
+Connection ~ 2600 3700
+Text Label 2600 2350 2    50   ~ 0
+SCL
+Wire Wire Line
+	1350 2450 950  2450
+Connection ~ 1350 2450
+Wire Wire Line
+	1350 2450 1350 2200
+Wire Wire Line
+	950  2550 1200 2550
+Wire Wire Line
+	1200 2550 1200 2650
+Wire Wire Line
+	1200 2650 1500 2650
+Connection ~ 1500 2650
+Text Label 2600 2450 2    50   ~ 0
+SDB
+Wire Wire Line
+	2600 2350 950  2350
+Wire Wire Line
+	3050 4100 3100 4100
+Connection ~ 3050 4100
+Connection ~ 3100 4100
+Wire Wire Line
+	3250 4100 3150 4100
+Connection ~ 3150 4100
 $EndSCHEMATC
