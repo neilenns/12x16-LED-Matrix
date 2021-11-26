@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP IS31FL3733B
+D 12×16 dots matrix driver with individual auto breathe function
+K led matrix pwm
+F https://www.lumissil.com/assets/pdf/core/IS31FL3733B_DS.pdf
+$ENDCMP
+#
 #End Doc Library
